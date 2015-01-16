@@ -8,19 +8,25 @@ namespace XapVersion.Test
     public class TestVersion
     {
         [TestCase]
-        [Repeat(100)]
         public void GetVersion_Test()
         {
-            foreach (var xap in XapFilesForTest)
+            for (int i = 0; i < 3; i++)
             {
-                var path = Path.Combine("ClientBin", xap.FileName);
-                var version = VersionOf.XapFile(path);
+                foreach (var xap in XapFilesForTest)
+                {
+                    var path = Path.Combine("ClientBin", xap.FileName);
+                    var version = VersionOf.XapFile(path);
 
-                Assert.That(version, Is.EqualTo(xap.Version));
+                    Assert.That(version, Is.EqualTo(xap.Version));
+                }
             }
         }
 
         public List<Xap> XapFilesForTest = new List<Xap>
-        {};
+        {
+            new Xap {FileName = "SilverlightApplication1.xap", Version = "1.2.3"},
+            new Xap {FileName = "SilverlightApplication2.xap", Version = "2.3.4"},
+            new Xap {FileName = "SilverlightApplication3.xap", Version = "3.4.5"},
+        };
     }
 }

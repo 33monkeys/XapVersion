@@ -9,6 +9,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XapVersion.Test", "XapVersi
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Silverligth", "Silverligth", "{6EF4F062-479F-4BE3-A61B-179C14962283}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SilverlightApplication1", "SilverlightApplication1\SilverlightApplication1.csproj", "{82DA3CAF-23F9-4646-A322-3CC8511894C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SilverlightApplication2", "SilverlightApplication2\SilverlightApplication2.csproj", "{7B436BD5-B65F-4BC1-809A-09826197AB57}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SilverlightApplication3", "SilverlightApplication3\SilverlightApplication3.csproj", "{CDA65B57-68D8-4B8F-B67E-2B3E635E74EB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,8 +29,25 @@ Global
 		{1DD776F7-0885-40C3-AB42-BD82B8508403}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1DD776F7-0885-40C3-AB42-BD82B8508403}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1DD776F7-0885-40C3-AB42-BD82B8508403}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82DA3CAF-23F9-4646-A322-3CC8511894C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82DA3CAF-23F9-4646-A322-3CC8511894C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82DA3CAF-23F9-4646-A322-3CC8511894C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82DA3CAF-23F9-4646-A322-3CC8511894C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B436BD5-B65F-4BC1-809A-09826197AB57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B436BD5-B65F-4BC1-809A-09826197AB57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B436BD5-B65F-4BC1-809A-09826197AB57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B436BD5-B65F-4BC1-809A-09826197AB57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDA65B57-68D8-4B8F-B67E-2B3E635E74EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDA65B57-68D8-4B8F-B67E-2B3E635E74EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDA65B57-68D8-4B8F-B67E-2B3E635E74EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDA65B57-68D8-4B8F-B67E-2B3E635E74EB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{82DA3CAF-23F9-4646-A322-3CC8511894C4} = {6EF4F062-479F-4BE3-A61B-179C14962283}
+		{7B436BD5-B65F-4BC1-809A-09826197AB57} = {6EF4F062-479F-4BE3-A61B-179C14962283}
+		{CDA65B57-68D8-4B8F-B67E-2B3E635E74EB} = {6EF4F062-479F-4BE3-A61B-179C14962283}
 	EndGlobalSection
 EndGlobal
